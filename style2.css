@@ -1,0 +1,199 @@
+html{
+    overflow-x: hidden; 
+}
+.mainpage{
+    width: 100%;
+    height: 100%;
+    background:url("back.jpg")no-repeat;
+    -webkit-background-size:cover;
+    background-size: 100%; 
+    display: fixed;
+    padding-top: 100px;
+    margin-left: 10%;
+}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    line-height: 1.6;
+    background-color: black;
+    
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    padding-top: 30px;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.nav{
+    font-size: 13px;
+    text-transform: uppercase;
+    float:left;
+    margin-top: 90px;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: 20px;
+    margin: 0 20px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.nav__link:hover{
+    color:#fcf19f;
+}
+.table_dark {
+            font-size: 14px;
+            width: 50%;
+            text-align: left;
+            border-collapse: collapse;
+            position: relative;
+            margin-bottom: 70px;
+}
+
+.table_dark th {
+            color: #fff;
+            border: none;
+            padding: 1% 2%;
+}
+.table_dark th::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: #fcf19f;
+}
+.table_dark td {
+            color: #fff;
+            border: none;
+            padding: 1% 3%;
+}
+
+.tablesRecords{
+    padding-top: 180px;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #fcf19f;
+}
+.tableName{
+   font-size: 20px;
+    padding-top: 15px;
+}
+.img{
+    margin-right: 250px;
+    float: right;
+    width: 27%;
+    margin-top: 50px;
+    border: 5px solid #999;
+    transition: 1s;
+}
+img:hover {
+    border: 5px solid #fff;
+    transform: scale(1.2);
+}
+/* Вторая таблица */
+
+.table_dark2 {
+            margin-bottom: 5%;
+            font-size: 14px;
+            width: 50%;
+            text-align: left;
+            border-collapse: collapse;
+            position: relative;
+}
+
+.table_dark2 th {
+            color: #fff;
+            border: none;
+            padding: 12px 17px;
+}
+.table_dark2 th::after{
+            content: '';
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: #fcf19f;
+}
+.table_dark2 td {
+            color: #fff;
+            border: none;
+            padding: 7px 17px;
+}
+.tableName2{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.img2{
+    width: 27%;
+    margin-top: 50px;
+}
+
+.block{
+    background-color: #090909;
+    
+}
+
+.contacts{
+    text-align: center;
+    height: 60px;
+    background-color: #090909;
+    padding-top: 45px;
+    box-shadow: inset 8px 8px 22px 3px #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

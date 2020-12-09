@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    background-color: #030303;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    padding-top: 30px;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.nav{
+    background: url("firefly2.gif") center no-repeat;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    float: center;
+}
+.nav1{
+    padding-right: 250px;
+    font-size: 13px;
+    text-transform: uppercase;
+    float:left;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav__link1{
+    display: inline-block;
+    vertical-align: 20px;
+    margin: 0 20px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+.nav__link1:hover{
+    color:#fcf19f;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  outline: none;
+  display: block;
+  transition: .4s ease-in-out;
+}
+.topmenu {
+  text-align: center;
+  padding: 10px 0;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+}
+.topmenu > li:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 1px;
+  height: 12px;
+  background: #d2d2d2;
+  top: 16px;
+  box-shadow: 4px -2px 0 #d2d2d2;
+}
+.topmenu > li:last-child:after {
+  background: none;
+  box-shadow: none;
+}
+.topmenu > li > a {
+  padding: 12px 26px;
+  color: #767676;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+.topmenu li a:hover { 
+    color: #fcf19f; 
+}
+.submenu {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 210px;
+  margin-left: -105px;
+
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.8);
+  transition: .4s ease-in-out;
+}
+.submenu li a {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px solid #efefef;
+  font-size: 12px;
+  color: #686868;
+  font-family: 'Kaushan', sans-serif;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+.zagolovok{
+    margin-top: 200px;
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    border: 2px solid #fff;
+    color: #e1e1e1;
+    text-transform: uppercase;
+}
+.block{
+    background-color: #090909;
+}
+
+.contacts{
+    color: #b6b6b6;
+    text-align: center;
+    font-size: 20px;
+    height: 66px;
+    background-color: #090909;
+    margin-top:40px;
+    padding-top: 40px;
+    box-shadow: inset 8px 8px 22px 3px #000;
+}

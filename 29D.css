@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    background-color: #000;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding-bottom: 120px;
+    margin: auto;
+}
+.header{
+    padding-top: 30px;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+}
+
+header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.nav{
+    display:block;
+    padding:5px;
+    background-size: 310px auto;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-bottom: 190px;
+    float: center;
+}
+.btn{
+    display: inline-block;
+    vertical-align: bottom;
+    border: 2px solid #fff;
+    padding: 10px 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.2s linear;
+}
+.btn:hover{
+    color:#fcf19f;
+}
+.drama{
+    padding: 10px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+}
+.table_blur {
+    width: 100%;
+    color: white;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.table_blur th {
+    border-top: 17px solid #ffba00;
+    border-bottom: 17px solid #ffba00;
+    border-right: 17px solid #ffba00;
+    border-left: 17px solid #ffba00;
+    background: #ffba00;
+            font-size: 14px;
+            width: 70%;
+            text-align: left;
+            border-collapse: collapse;
+}
+
+.table_blur th:after {
+    padding-left: 10px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 25%;
+    height: 25%;
+    width: 100%;
+}
+.table_blur td {
+       
+    padding: 3% 3%;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.table_blur tbody:hover tr:hover td {
+    background: #ffba00;
+    opacity: 0.7;
+    color: white;
+}
+.img{
+    margin-top: 100px;
+    float: right;
+    width: 90%;
+    border: 5px solid #999;
+    transition: 1s;
+}
+img:hover {
+    border: 5px solid #fff;
+    transform: scale(1.2);
+}
+.left {
+    width:60%; 
+}
+.right {
+    padding-top: 60px;
+    height: 100%;
+    width:29%;
+    float:right;
+}
+
+.block{
+    background-color: #090909;
+}
+
+.contacts{
+    color: #b6b6b6;
+    text-align: center;
+    font-size: 20px;
+    height: 66px;
+    background-color: #090909;
+    margin-top:40px;
+    padding-top: 40px;
+    box-shadow: inset 8px 8px 22px 3px #000;
+}
